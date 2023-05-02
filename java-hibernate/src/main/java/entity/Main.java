@@ -19,13 +19,16 @@ public class Main {
 
 
         try {
-             et.begin();
-            StudentEntity stu = new StudentEntity('1',"koshika","TEC001");
+//             et.begin();
+//            StudentEntity stu = new StudentEntity('1',"koshika","TEC001");
+//            em.persist(stu);
+//             et.commit();
 
 
 
-            em.persist(stu);
-             et.commit();
+
+
+
 
 
         } finally {
