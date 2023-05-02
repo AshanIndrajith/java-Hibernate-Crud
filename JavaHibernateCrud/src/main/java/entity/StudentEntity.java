@@ -16,6 +16,17 @@ public class StudentEntity {
     @Column(name = "address")
     private String address;
 
+
+    public StudentEntity(int id, String name, String address) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+    }
+
+    public StudentEntity() {
+
+    }
+
     public int getId() {
         return id;
     }
