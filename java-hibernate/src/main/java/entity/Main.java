@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
+import jakarta.transaction.Transactional;
 
 import java.util.Scanner;
 
@@ -19,10 +20,12 @@ public class Main {
 
 
         try {
-//             et.begin();
-//            StudentEntity stu = new StudentEntity('1',"koshika","TEC001");
+             et.begin();
+//            StudentEntity stu = new StudentEntity('5',"Kavinda","TEC001");
 //            em.persist(stu);
-//             et.commit();
+
+
+             et.commit();
 
 
 
